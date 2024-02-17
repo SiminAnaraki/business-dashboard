@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.overview-holder{
+    width:92%;
+    margin:0 auto;
+    font-family: 'Roboto';
+    padding-top: 8%;
+    color:var(--side-bg)
+}
+.flex-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+.segment {
+    width:50%;
+}
+.segment .header {
+    margin:10% 0 5% 0
+}
+.details  div {
+    display: flex;
+}
+
+.details h2 {
+    width:40%;
+    padding-bottom: 10%;
+} 
+
+.details p {
+    width:60%;
+   
+}
+.donut-chart {
+    height:408px;
+    width:408px;
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-family: 'Montserrat';
+    margin:15% 0 0 15%;
+} 

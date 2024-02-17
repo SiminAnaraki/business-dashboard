@@ -1,0 +1,32 @@
+.layer {
+    position:absolute;
+    width:95%;
+    height:95%;
+    border-radius: 50%;
+    border:15px solid var(--gray);
+    top:2.5%;
+    right:2.5%;
+    z-index: -50;
+}
+.numerator {
+    color:var(--side-bg);
+    font-size: 120px;
+    position: absolute;
+    bottom:-10px;
+    left:25px
+}
+.denominator {
+    color: var(--donut-denominator);
+    font-size: 60px;
+    position: absolute;
+    top:65px;
+    right:10px
+ 
+}
+hr {
+    transform: rotate(-45deg);
+    width:150px;
+    height:8px;
+    background-color: var(--heading);
+    margin:50px 0 0 100px;
+}

@@ -1,0 +1,106 @@
+.line-chart {
+    display: flex;
+   flex-direction: column;
+    align-items: flex-start; 
+  }
+  /* Marker Styles */
+  .markers {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin: 48px 0;
+  }
+  .each-marker {
+    display :flex;
+    justify-content: space-between;
+    gap:15px;
+    align-items: center;
+  }
+  .diamond {
+    width:20px;
+    height:20px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .blue{
+    background-color:var(--blue);
+  }
+  .green {
+    background-color: var(--green);
+  }
+  .yellow {
+    background-color: var(--yellow);
+  }
+  .orange {
+    background-color: var(--orange);
+  }
+  .purple {
+    background-color: var(--purple);
+  }
+  .gray {
+    background-color: var(--gray);
+  }
+  /*Line Styles */
+  .line {
+    width:100%;
+  }
+  .chart-title {
+    margin-bottom: 1%;
+  }
+  .line-flex-holder{
+    display: flex;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 10px;
+    
+  }
+  .radius-start {
+    border-radius: 5px 0 0 5px;
+  }
+  .radius-end {
+    border-radius :0px 5px 5px 0px;
+  }
+  .part {
+    height: 100%;
+    position:relative ;
+    transition: width 0.5s ease-in-out;
+    
+  }
+  .part::after {
+    content:  attr(data-percentage) "%";
+    position: absolute;
+    top:130%;
+    left:50%;
+    transform: translateX(-50%);
+    width:18%;
+    min-width: 30px;
+    max-width: 45px;
+    height: 18px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px 2px rgb(189, 187, 187);
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 5px;
+    font-weight: 700;
+    display:none;
+  }
+  .part::before {
+    content:"";
+    position: absolute;
+    top:110%;
+    left:50%;
+    transform: translateX(-50%);
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid #fff;
+    display: none;
+   
+  }
+  .part.show::after,
+  .part.show::before {
+    display:block;
+  }
+  
