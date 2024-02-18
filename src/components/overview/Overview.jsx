@@ -32,7 +32,6 @@ function Overview() {
         <div className='donut segment'>
           <h2 className='header'>Calls this month</h2>
           <div className='donut-chart'>
-            <div className='layer'></div>
             <Donut/>
           </div>
         </div>

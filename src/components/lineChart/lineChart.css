@@ -42,6 +42,7 @@
   /*Line Styles */
   .line {
     width:100%;
+    margin-bottom: 1.5%;
   }
   .chart-title {
     margin-bottom: 1%;
@@ -49,7 +50,7 @@
   .line-flex-holder{
     display: flex;
     width: 100%;
-    height: 36px;
+    height: .57rem;
     margin-bottom: 10px;
     
   }
@@ -68,15 +69,15 @@
   .part::after {
     content:  attr(data-percentage) "%";
     position: absolute;
-    top:130%;
+    top:145%;
     left:50%;
     transform: translateX(-50%);
-    width:18%;
-    min-width: 30px;
-    max-width: 45px;
-    height: 18px;
+    width:25%;
+    min-width: 40px;
+    max-width: 54px;
+    height: 20px;
     background-color: #fff;
-    box-shadow: 1px 1px 8px 2px rgb(189, 187, 187);
+    box-shadow:0px 3px 10px #00000040;
     border-radius: 3px;
     text-align: center;
     align-items: center;
@@ -88,16 +89,17 @@
   .part::before {
     content:"";
     position: absolute;
-    top:110%;
+    top:105%;
     left:50%;
     transform: translateX(-50%);
     width: 0;
-	height: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-bottom: 15px solid #fff;
+	  height: 0;
+	  border-left: 7px solid transparent;
+	  border-right: 7px solid transparent;
+	  border-bottom: 9px solid #fff;
     display: none;
-   
+    z-index: 100;
+    
   }
   .part.show::after,
   .part.show::before {

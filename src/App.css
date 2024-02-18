@@ -15,15 +15,22 @@
   --donut-orange:#F68b15;
   --heading:#666666;
   --donut-denominator:#999999;
-}
-p,h2 {
   font-size: 36px;
 }
 h1 {
-  font-size: 56px;
+  font-size: 1.56rem;
 }
+p,h2 {
+  font-size: .57rem;
+}
+
+h3 {
+  font-size: .5rem;
+}
+
 body {
   background-color: var(--bg);
+  font-family: 'Roboto';
 }
 a {
   text-decoration: none;
@@ -39,10 +46,11 @@ li {
 .flex {
   display:flex;
   flex-wrap: wrap;
+  height:100%;
 }
 .sidebar {
-  width:30%;
+  width:22.65%;
 }
 .overview {
-  width:70%;
+  width:77.35%;
 }

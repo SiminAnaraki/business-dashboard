@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .sidebar-holder {
     font-family: 'Montserrat';
     background-color: var(--side-bg);
@@ -7,13 +6,14 @@
     height: 100%;
     width:100%;
 }
+
 .heading {
     color:var(--heading);
     margin: 17% 0 45px 10%;
 }
 .greeting {
     color:var(--heading);
-    padding: 23% 0 0 10%;
+    padding: 22.8% 0 0 10%;
 }
 .user {
     padding: 8% 0 7.5% 10%;
@@ -22,7 +22,7 @@
     padding-top:7%;
 }
 li {
-    padding: 11.24% 0 11.3% 10%;
+    padding: 7.3% 0 7.3% 10%;
     position: relative;
     transition: all .1s ease;
     cursor: pointer;

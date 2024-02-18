@@ -60,13 +60,13 @@ const Donut = () => {
     };
 
     return (
-        <div style={{ position: 'relative', width: '408px', height: '408px' }}>
+        <div style={{ position: 'relative' }}>
             <div className='layer'></div>
             <canvas ref={chartRef} id="runningValue" onClick={handleChartClick}></canvas>
             <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)rotate(-90deg)', textAlign: 'center'}}>
-                <span className='numerator'>{n}</span>
+                <div className='numerator'>{n}</div>
                 <hr></hr>
-                <span className='denominator'>28</span>
+                <div className='denominator'>28</div>
             </div>
         </div>
     );
