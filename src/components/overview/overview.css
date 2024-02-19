@@ -54,9 +54,12 @@
    }
   }
   @media screen and (max-width: 576px) {
+    .segment {
+        width:100%;
+    }
     .donut-chart {
-        height:130px;
-        width:130px;
-        margin:10% 0 0 10%;
+        height:140px;
+        width:140px;
+        margin:0 0 10% 40%
        }
   }
