@@ -1,8 +1,9 @@
 .overview-holder{
     width:92%;
     margin:0 auto;
-    padding-top: 8%;
-    color:var(--side-bg)
+    padding-top: 5.5%;
+    color:var(--side-bg);
+    height:100%;
 }
 
 .flex-holder {
@@ -37,3 +38,15 @@
     font-family: 'Montserrat';
     margin:10% 0 0 19%;
 } 
+@media screen and (max-width: 767px) {
+   .donut-chart {
+    height:150px;
+    width:150px;
+   }
+  }
+  @media screen and (max-width: 576px) {
+    .donut-chart {
+        height:130px;
+        width:130px;
+       }
+  }

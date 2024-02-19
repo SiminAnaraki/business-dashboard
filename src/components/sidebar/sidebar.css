@@ -5,6 +5,7 @@
     font-weight: 400;
     height: 100%;
     width:100%;
+    box-shadow: 5px 0px 10px #00000040;
 }
 
 .heading {
@@ -13,7 +14,7 @@
 }
 .greeting {
     color:var(--heading);
-    padding: 22.8% 0 0 10%;
+    padding: 22.1% 0 0 10%;
 }
 .user {
     padding: 8% 0 7.5% 10%;

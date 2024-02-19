@@ -8,13 +8,17 @@
     display: flex;
     justify-content: space-between;
     width:100%;
-    margin: 48px 0;
+    margin: 28px 0;
+    flex-wrap: wrap;
   }
   .each-marker {
     display :flex;
-    justify-content: space-between;
-    gap:15px;
     align-items: center;
+    gap:10px;
+    width: max-content;
+  }
+  .each-marker p {
+    font-size: .5rem ;
   }
   .diamond {
     width:20px;
@@ -105,4 +109,26 @@
   .part.show::before {
     display:block;
   }
+  @media screen and (max-width: 767px) {
+  .markers {
+    justify-content: center;
+    gap:5px
+  }
+  .each-marker {
+    gap:3px;
+  }
+  .diamond {
+    width:15px;
+    height:15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .markers {
+    justify-content: start;
+    gap:0px
+  }
+  .each-marker {
+    width: 50%;
+  }
+}
   

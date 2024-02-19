@@ -11,8 +11,8 @@ function Linechart() {
   const other = (arr) => {
     let o
     let sum = 0;
-    for (let i=0 ; i<arr.length ; i++){
-      sum = arr[i]+sum;
+    for (const value of arr){
+      sum = value + sum;
        o = 100 - sum;
     }
     return o
