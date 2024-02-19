@@ -5,6 +5,15 @@
     color:var(--side-bg);
     height:100%;
 }
+.overview-holder h1,
+.overview-holder h2,
+.overview-holder h3 {
+    font-family: 'Montserrat';
+}
+.breakdown h3 {
+    font-family: 'Roboto';
+}
+
 
 .flex-holder {
     display: flex;
@@ -40,13 +49,14 @@
 } 
 @media screen and (max-width: 767px) {
    .donut-chart {
-    height:150px;
-    width:150px;
+    height:180px;
+    width:180px;
    }
   }
   @media screen and (max-width: 576px) {
     .donut-chart {
         height:130px;
         width:130px;
+        margin:10% 0 0 10%;
        }
   }
