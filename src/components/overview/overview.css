@@ -46,20 +46,23 @@
     transform: rotate(90deg);
     font-family: 'Montserrat';
     margin:10% 0 0 19%;
+    cursor: pointer;
+    /* position: relative; */
 } 
 @media screen and (max-width: 767px) {
-   .donut-chart {
-    height:180px;
-    width:180px;
-   }
-  }
-  @media screen and (max-width: 576px) {
     .segment {
         width:100%;
     }
+   .donut-chart {
+    height:180px;
+    width:180px;
+    margin:0 0 10% 40%
+   }
+  }
+  @media screen and (max-width: 576px) {
+   
     .donut-chart {
         height:140px;
         width:140px;
-        margin:0 0 10% 40%
        }
   }

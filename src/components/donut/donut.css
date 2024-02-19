@@ -8,6 +8,9 @@
     right:1.8%;
     z-index: -50;
 }
+canvas {
+    position: relative;
+}
 .numerator {
     color:var(--side-bg);
     font-size: 1.9rem;
@@ -44,6 +47,11 @@ hr {
     }
   }
   @media screen and (max-width :576px) {
+    .layer {
+        top:1.75%;
+        right:1.5%;
+        
+    }
     hr {
         height:5px;
     }

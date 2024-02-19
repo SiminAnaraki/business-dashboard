@@ -50,3 +50,11 @@ li:hover  .holder{
 .active .holder {
     display: block;
 }
+@media screen and (max-width: 767px) {
+    li {
+        padding: 8% 0 8% 10%;
+    }
+    .info {
+        padding-top:20%;
+    }
+}
