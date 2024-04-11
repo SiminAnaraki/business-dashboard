@@ -1,7 +1,7 @@
 {
   "name": "junior-developer-evaluation",
   "version": "0.1.0",
-  "homepage": "https://siminanaraki.github.io/junior-developer-evaluation",
+  "homepage": "https://siminanaraki.github.io/business-dashboard/",
   "private": true,
   "dependencies": {
     "@syncfusion/ej2-react-charts": "^24.2.5",
