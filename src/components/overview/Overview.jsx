@@ -17,7 +17,7 @@ function Overview() {
             </div>
             <div>
               <h2>Account:</h2>
-              <p>Dr. Clinton Ackerman</p>
+              <p>Dr. Jack Megan</p>
               </div>
               <div>
               <h2>Speciality:</h2>

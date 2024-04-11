@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 const App = () => {
   useEffect(() => {
-    document.title = "TwentyEightB"
+    document.title = "Dashboard"
  }, []);
   return (
    <div className="container">
